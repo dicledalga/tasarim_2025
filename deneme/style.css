@@ -1,0 +1,107 @@
+/*SELECTORS*/
+/*1. idsi adi olan imput seçildi*/
+#adi{
+/* class 1 obje_1 olan p seçildi*/
+}
+.obje_1{
+    color:yellow;
+}
+
+/*etiket seçiciler*/
+div{
+    background-color:blueviolet;
+}
+
+/*Evrensel Seçiciler(yıldız)*/
+*{
+    margin:0;
+    padding:0;
+}
+/*Torun Seçiciler(hiyerarşik yapısı)*/
+ul li a{
+    color:aquamarine;
+}
+
+
+/*Çocuk seçiciler*/
+/*h2nin içindeki tüm em'leri seç*/
+h2 em{
+    color:brown;
+}
+
+/*h2nin içindeki direkt em varsa onu seçer*/
+h2>em{
+    color:green;
+}
+
+/*h2nin altındaki strongda direkt em seçer*/
+h2 strong>em{
+  color:aqua;
+}
+
+
+/*Bitişik Seçiciler*/
+/*öncesşnde h1 olan tüm pleri seç veya renk ata*/
+h1+p{
+    color:orange;
+    font-size: 54px;
+}
+/*Özellik seçiciler (attributes)*/
+a{
+    color:red;
+}
+a[title]{
+    color:green;
+}
+
+
+input[type="text"]{
+    color:blanchedalmond;
+}
+
+input[type="submit"]{
+    color:brown;
+}
+
+input[type="reset"]{
+    color:azure;
+}
+
+input[value="adi"]{
+    font-size: 34 px;
+    color:purple;
+}
+
+ul li{
+    list-style-type:none;
+    background-color:blue;
+    border: 1;
+    border-color: black;
+    margin: 35px;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color:red;
+
+}
+
+a:visited{
+    color:green;
+
+}
+
+a:active{
+    color:yellow;
+
+}
+
+ul{
+    display:flex;
+}
+
+
